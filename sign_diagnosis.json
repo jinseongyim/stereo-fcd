@@ -1,0 +1,30 @@
+{
+ "composition": {
+  "reference": {
+   "n_mol": 712,
+   "E": 768,
+   "Z": 1017,
+   "E_share": 0.43025210084033616
+  },
+  "molt5": {
+   "n_mol": 384,
+   "E": 524,
+   "Z": 71,
+   "E_share": 0.880672268907563
+  },
+  "molt5_inverted": {
+   "n_mol": 384,
+   "E": 76,
+   "Z": 519,
+   "E_share": 0.12773109243697478
+  }
+ },
+ "n_same_skeleton": 1395,
+ "n_gt_stereo": 380,
+ "exact_asis": 111,
+ "exact_inverted": 4,
+ "bond_total": 285,
+ "bond_ok_asis": 282,
+ "bond_ok_inverted": 6,
+ "verdict": "B -- inverting does NOT improve correctness, so the metric's preference for the inverted set is spurious"
+}

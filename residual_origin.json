@@ -1,0 +1,19 @@
+{
+ "n_test": 3243,
+ "n_flipped": 675,
+ "same_token": {
+  "n": 49,
+  "n_identical": 48,
+  "median_maxabs": 0.0,
+  "max_maxabs": 0.3099517226219177
+ },
+ "diff_token": {
+  "n": 626,
+  "n_identical": 624,
+  "median_maxabs": 0.0,
+  "max_maxabs": 0.3679441511631012
+ },
+ "fcd_same_token_only_true": 1.1719751581874007,
+ "fcd_same_token_only_flipped": 1.171962358831955,
+ "fcd_same_token_only_diff": 1.2799355445736182e-05
+}

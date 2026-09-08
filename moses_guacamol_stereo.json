@@ -1,0 +1,24 @@
+{
+ "moses": {
+  "n": 1936962,
+  "expected_n": 1936962,
+  "count_matches_published": true,
+  "n_ez": 0,
+  "n_at": 0,
+  "n_any_stereo": 0,
+  "frac_ez": 0.0,
+  "frac_at": 0.0,
+  "examples": []
+ },
+ "guacamol_all": {
+  "n": 1591378,
+  "expected_n": 1591378,
+  "count_matches_published": true,
+  "n_ez": 0,
+  "n_at": 0,
+  "n_any_stereo": 0,
+  "frac_ez": 0.0,
+  "frac_at": 0.0,
+  "examples": []
+ }
+}

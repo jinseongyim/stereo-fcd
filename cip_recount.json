@@ -1,0 +1,18 @@
+{
+ "n_eligible": 380,
+ "N_bonds": 1041,
+ "assigned": 292,
+ "correct": 289,
+ "correct_inverted": 3,
+ "coverage": 0.2804995196926033,
+ "precision": 0.9897260273972602,
+ "recall": 0.27761767531219983,
+ "exact_asis": 111,
+ "exact_inverted": 2,
+ "protocol": "B (actual invert_correct molecules, CIP re-perceived)",
+ "molecule_level": {
+  "-|-": 114,
+  "omission|-": 263,
+  "-|wrong": 3
+ }
+}

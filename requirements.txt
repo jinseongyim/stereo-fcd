@@ -1,0 +1,18 @@
+# Pins copied from environment.txt, the environment every number here was
+# produced in (Python 3.12.2, Windows 11, CUDA 12.6).
+rdkit==2026.03.3
+torch==2.6.0
+fcd==1.2.2
+numpy==2.5.1
+scipy==1.17.1
+selfies==2.1.1
+matplotlib==3.10.1
+
+# Needed by 09_molt5_generate.py and 27_biot5_generate.py. The recorded
+# environment did not pin this one; 5.14.1 is what is installed here now, so
+# treat it as observed rather than as the version the outputs were made with.
+transformers>=4.40
+
+# Two traps, both applied inside the scripts:
+#   fcd 1.2.2 calls np.row_stack, removed in NumPy 2 -> shim np.row_stack = np.vstack
+#   fcd.get_predictions hangs on Windows with the default n_jobs -> pass n_jobs=0

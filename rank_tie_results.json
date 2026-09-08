@@ -1,0 +1,19 @@
+{
+ "n_ref": 9981,
+ "n_gen": 9981,
+ "stereo_bonds_total": 12078,
+ "stereo_bonds_flipped": 6079,
+ "FCD_A_vs_R": 0.3148015768135508,
+ "FCD_B_vs_R": 0.31484468844497826,
+ "FCD_difference": 4.311163142745045e-05,
+ "validity_A": 1.0,
+ "validity_B": 1.0,
+ "uniqueness_A": 1.0,
+ "uniqueness_B": 0.9997996192766256,
+ "novelty_A": 1.0,
+ "novelty_B": 0.9991984771065023,
+ "intdiv_A": 0.8868679210780125,
+ "intdiv_B": 0.88775186581416,
+ "stereo_accuracy_A": 1.0,
+ "stereo_accuracy_B": 0.47790802524797116
+}

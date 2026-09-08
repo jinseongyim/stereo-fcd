@@ -1,0 +1,10 @@
+{
+ "buckets": {
+  "HIT": 196,
+  "CAP": 12,
+  "MISS": 160,
+  "ERR": 0
+ },
+ "ceiling_exact": 1223,
+ "ceiling_pp": 5.9393939393939394
+}

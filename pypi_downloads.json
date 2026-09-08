@@ -1,0 +1,17 @@
+{
+ "accessed": "2026-09-05",
+ "source": "https://pypistats.org/api/packages/<pkg>/recent",
+ "window": "rolling 30 days (last_month)",
+ "packages": {
+  "fcd": {
+   "last_day": 152,
+   "last_month": 4275,
+   "last_week": 758
+  },
+  "fcd-torch": {
+   "last_day": 25,
+   "last_month": 2251,
+   "last_week": 295
+  }
+ }
+}

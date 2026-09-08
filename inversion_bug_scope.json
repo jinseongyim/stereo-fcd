@@ -1,0 +1,12 @@
+{
+ "n_ez": 384,
+ "total_bonds": 595,
+ "old_flipped": 538,
+ "correct_flipped": 561,
+ "mol_changed_old": 371,
+ "mol_changed_correct": 384,
+ "fcd_orig": 12.374156304941259,
+ "fcd_correct_inv": 12.370383933094743,
+ "delta_fcd_correct": 0.0037723718465159095,
+ "max_emb_diff": 0.4895741939544678
+}

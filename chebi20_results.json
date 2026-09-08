@@ -1,0 +1,34 @@
+{
+ "train": {
+  "n": 26407,
+  "ez": 5818,
+  "ez_frac": 0.22032036959896997,
+  "at": 16059,
+  "at_frac": 0.6081342068390957
+ },
+ "validation": {
+  "n": 3301,
+  "ez": 741,
+  "ez_frac": 0.22447743108149046,
+  "at": 2011,
+  "at_frac": 0.6092093305059073
+ },
+ "test": {
+  "n": 3300,
+  "ez": 712,
+  "ez_frac": 0.21575757575757576,
+  "at": 1969,
+  "at_frac": 0.5966666666666667
+ },
+ "fcd": {
+  "fcd_true": 0.5653483673854325,
+  "fcd_flipped": 0.5654484709507983,
+  "difference": 0.00010010356536582776,
+  "activations_identical": false,
+  "max_abs_activation_delta": 0.3679441511631012,
+  "noise_sd": 0.013242760582083828,
+  "n_test_used": 3243,
+  "n_molecules_inverted": 675,
+  "n_bonds_inverted": 1735
+ }
+}

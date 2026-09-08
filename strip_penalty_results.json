@@ -1,0 +1,47 @@
+{
+ "0.0665": {
+  "prevalence": 0.0665,
+  "n_molecules_changed_by_strip": 3097,
+  "fcd_with_stereo": 0.3372146172400363,
+  "fcd_stripped": 0.38144461689276454,
+  "delta": 0.044229999652728225,
+  "noise_sd": 0.007068457726212364,
+  "delta_in_sd": 6.257376271588582
+ },
+ "0.1058": {
+  "prevalence": 0.1058,
+  "n_molecules_changed_by_strip": 3402,
+  "fcd_with_stereo": 0.3379115893967821,
+  "fcd_stripped": 0.3879819057495695,
+  "delta": 0.05007031635278736,
+  "noise_sd": 0.027357447406137776,
+  "delta_in_sd": 1.8302261760559517
+ },
+ "0.25": {
+  "prevalence": 0.25,
+  "n_molecules_changed_by_strip": 4455,
+  "fcd_with_stereo": 0.3484061421024762,
+  "fcd_stripped": 0.4239675401531713,
+  "delta": 0.07556139805069506,
+  "noise_sd": 0.10618991500783145,
+  "delta_in_sd": 0.7115684954180672
+ },
+ "0.5": {
+  "prevalence": 0.5,
+  "n_molecules_changed_by_strip": 6316,
+  "fcd_with_stereo": 0.3539271510933446,
+  "fcd_stripped": 0.49254089904576404,
+  "delta": 0.13861374795241943,
+  "noise_sd": 0.006005847701233109,
+  "delta_in_sd": 23.079797365484232
+ },
+ "1.0": {
+  "prevalence": 1.0,
+  "n_molecules_changed_by_strip": 10000,
+  "fcd_with_stereo": 0.32813438057137034,
+  "fcd_stripped": 0.6637992881675956,
+  "delta": 0.33566490759622525,
+  "noise_sd": 0.031010665018293904,
+  "delta_in_sd": 10.82417637281267
+ }
+}

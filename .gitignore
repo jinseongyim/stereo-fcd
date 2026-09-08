@@ -1,0 +1,22 @@
+# external datasets — see DATA.md, not redistributed
+chembl_37_chemreps.txt.gz
+chembl_stereo.smi
+moses_dataset_v1.csv
+guacamol_v1_all.smiles
+chebi20_*.txt
+targets*.jsonl
+opsin*.jar
+opsin_*.txt
+
+# run artefacts
+*.log
+*.err
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.synctex.gz

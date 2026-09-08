@@ -1,0 +1,26 @@
+{
+ "truth": {
+  "n_mol": 712,
+  "E": 768,
+  "Z": 1017,
+  "total": 1785,
+  "E_share": 0.43025210084033616
+ },
+ "skeleton_match": {
+  "n_mol": 190,
+  "E": 265,
+  "Z": 28,
+  "total": 293,
+  "E_share": 0.9044368600682594
+ },
+ "skeleton_miss": {
+  "n_mol": 194,
+  "E": 259,
+  "Z": 43,
+  "total": 302,
+  "E_share": 0.8576158940397351
+ },
+ "n_skeleton_match": 1395,
+ "n_skeleton_miss": 1726,
+ "miss_share_of_stereo_bonds": 0.507563025210084
+}

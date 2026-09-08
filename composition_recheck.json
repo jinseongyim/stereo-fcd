@@ -1,0 +1,23 @@
+{
+ "as_generated": {
+  "n_mol": 384,
+  "E": 524,
+  "Z": 71,
+  "total": 595,
+  "E_share": 0.880672268907563
+ },
+ "inverted_audited": {
+  "n_mol": 384,
+  "E": 71,
+  "Z": 524,
+  "total": 595,
+  "E_share": 0.11932773109243698
+ },
+ "inverted_script17": {
+  "n_mol": 384,
+  "E": 76,
+  "Z": 519,
+  "total": 595,
+  "E_share": 0.12773109243697478
+ }
+}

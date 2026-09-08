@@ -1,0 +1,404 @@
+{
+  "ez_pairs": [
+    {
+      "pair": "tamoxifen",
+      "kind": "ez",
+      "why": "Z is the marketed anti-oestrogen; the E isomer has a different receptor profile.",
+      "a": {
+        "CID": 2733526,
+        "SMILES": "CC/C(=C(\\C1=CC=CC=C1)/C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3",
+        "ConnectivitySMILES": "CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3",
+        "InChIKey": "NKANXQFJJICGDU-QPLCGJKRSA-N",
+        "Title": "Tamoxifen",
+        "queried_as": "tamoxifen"
+      },
+      "b": {
+        "CID": 3032583,
+        "SMILES": "CC/C(=C(/C1=CC=CC=C1)\\C2=CC=C(C=C2)OCCN(C)C)/C3=CC=CC=C3",
+        "ConnectivitySMILES": "CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3",
+        "InChIKey": "NKANXQFJJICGDU-OCEACIFDSA-N",
+        "Title": "(E)-Tamoxifen",
+        "queried_as": "(E)-tamoxifen"
+      },
+      "bond_a": [
+        "STEREOZ"
+      ],
+      "bond_b": [
+        "STEREOE"
+      ],
+      "atoms_a": 0,
+      "atoms_b": 0,
+      "checks": {
+        "same_constitution": true,
+        "stereo_differs": true,
+        "has_double_bond_stereo": true,
+        "labels_differ": true
+      },
+      "validated": true,
+      "status": "measured",
+      "canonical": {
+        "smiles_a": "CC/C(=C(\\c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+        "smiles_b": "CC/C(=C(/c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+        "strings_differ": true,
+        "onehot_identical": true,
+        "max_abs_delta": 0.0
+      },
+      "order_fixed": {
+        "smiles_a": "CC/C(=C(\\c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+        "smiles_b": "CC/C(=C(/c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1",
+        "strings_differ": true,
+        "onehot_identical": true,
+        "max_abs_delta": 0.0
+      }
+    },
+    {
+      "pair": "retinoic acid",
+      "kind": "ez",
+      "why": "Two separately approved medicines differing in double-bond configuration.",
+      "a": {
+        "CID": 444795,
+        "SMILES": "CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C(=O)O)/C)/C",
+        "ConnectivitySMILES": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C",
+        "InChIKey": "SHGAZHPCJJPHSC-YCNIQYBTSA-N",
+        "Title": "Retinoic Acid",
+        "queried_as": "tretinoin"
+      },
+      "b": {
+        "CID": 5282379,
+        "SMILES": "CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C\\C(=O)O)/C)/C",
+        "ConnectivitySMILES": "CC1=C(C(CCC1)(C)C)C=CC(=CC=CC(=CC(=O)O)C)C",
+        "InChIKey": "SHGAZHPCJJPHSC-XFYACQKRSA-N",
+        "Title": "Isotretinoin",
+        "queried_as": "isotretinoin"
+      },
+      "bond_a": [
+        "STEREOE",
+        "STEREOE",
+        "STEREOE",
+        "STEREOE"
+      ],
+      "bond_b": [
+        "STEREOE",
+        "STEREOE",
+        "STEREOE",
+        "STEREOZ"
+      ],
+      "atoms_a": 0,
+      "atoms_b": 0,
+      "checks": {
+        "same_constitution": true,
+        "stereo_differs": true,
+        "has_double_bond_stereo": true,
+        "labels_differ": true
+      },
+      "validated": true,
+      "status": "measured",
+      "canonical": {
+        "smiles_a": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C(=O)O)C(C)(C)CCC1",
+        "smiles_b": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C\\C(=O)O)C(C)(C)CCC1",
+        "strings_differ": true,
+        "onehot_identical": true,
+        "max_abs_delta": 0.0
+      },
+      "order_fixed": {
+        "smiles_a": "CC1=C(/C=C/C(=C/C=C/C(=C/C(=O)O)C)C)C(C)(C)CCC1",
+        "smiles_b": "CC1=C(/C=C/C(=C/C=C/C(=C\\C(=O)O)C)C)C(C)(C)CCC1",
+        "strings_differ": true,
+        "onehot_identical": true,
+        "max_abs_delta": 0.0
+      }
+    },
+    {
+      "pair": "combretastatin A-4",
+      "kind": "ez",
+      "why": "Z inhibits tubulin polymerisation potently; E is far weaker.",
+      "a": {
+        "CID": 5351344,
+        "SMILES": "COC1=C(C=C(C=C1)/C=C\\C2=CC(=C(C(=C2)OC)OC)OC)O",
+        "ConnectivitySMILES": "COC1=C(C=C(C=C1)C=CC2=CC(=C(C(=C2)OC)OC)OC)O",
+        "InChIKey": "HVXBOLULGPECHP-WAYWQWQTSA-N",
+        "Title": "Combretastatin A4",
+        "queried_as": "combretastatin A-4"
+      },
+      "b": {
+        "CID": 5386397,
+        "SMILES": "COC1=C(C=C(C=C1)/C=C/C2=CC(=C(C(=C2)OC)OC)OC)O",
+        "ConnectivitySMILES": "COC1=C(C=C(C=C1)C=CC2=CC(=C(C(=C2)OC)OC)OC)O",
+        "InChIKey": "HVXBOLULGPECHP-AATRIKPKSA-N",
+        "Title": "2-methoxy-5-[(E)-2-(3,4,5-trimethoxyphenyl)vinyl]phenol",
+        "queried_as": "trans-combretastatin A-4"
+      },
+      "bond_a": [
+        "STEREOZ"
+      ],
+      "bond_b": [
+        "STEREOE"
+      ],
+      "atoms_a": 0,
+      "atoms_b": 0,
+      "checks": {
+        "same_constitution": true,
+        "stereo_differs": true,
+        "has_double_bond_stereo": true,
+        "labels_differ": true
+      },
+      "validated": true,
+      "status": "measured",
+      "canonical": {
+        "smiles_a": "COc1ccc(/C=C\\c2cc(OC)c(OC)c(OC)c2)cc1O",
+        "smiles_b": "COc1ccc(/C=C/c2cc(OC)c(OC)c(OC)c2)cc1O",
+        "strings_differ": true,
+        "onehot_identical": true,
+        "max_abs_delta": 0.0
+      },
+      "order_fixed": {
+        "smiles_a": "COc1c(O)cc(/C=C\\c2cc(OC)c(OC)c(OC)c2)cc1",
+        "smiles_b": "COc1c(O)cc(/C=C/c2cc(OC)c(OC)c(OC)c2)cc1",
+        "strings_differ": true,
+        "onehot_identical": true,
+        "max_abs_delta": 0.0
+      }
+    },
+    {
+      "pair": "clomifene",
+      "kind": "ez",
+      "why": "The two isomers of the marketed mixture differ in oestrogen-receptor action.",
+      "a": {
+        "CID": 1548955,
+        "SMILES": "CCN(CC)CCOC1=CC=C(C=C1)/C(=C(/C2=CC=CC=C2)\\Cl)/C3=CC=CC=C3",
+        "ConnectivitySMILES": "CCN(CC)CCOC1=CC=C(C=C1)C(=C(C2=CC=CC=C2)Cl)C3=CC=CC=C3",
+        "InChIKey": "GKIRPKYJQBWNGO-QPLCGJKRSA-N",
+        "Title": "Zuclomiphene",
+        "queried_as": "zuclomiphene"
+      },
+      "b": {
+        "CID": 1548953,
+        "SMILES": "CCN(CC)CCOC1=CC=C(C=C1)/C(=C(\\C2=CC=CC=C2)/Cl)/C3=CC=CC=C3",
+        "ConnectivitySMILES": "CCN(CC)CCOC1=CC=C(C=C1)C(=C(C2=CC=CC=C2)Cl)C3=CC=CC=C3",
+        "InChIKey": "GKIRPKYJQBWNGO-OCEACIFDSA-N",
+        "Title": "Enclomiphene",
+        "queried_as": "enclomiphene"
+      },
+      "bond_a": [
+        "STEREOZ"
+      ],
+      "bond_b": [
+        "STEREOE"
+      ],
+      "atoms_a": 0,
+      "atoms_b": 0,
+      "checks": {
+        "same_constitution": true,
+        "stereo_differs": true,
+        "has_double_bond_stereo": true,
+        "labels_differ": true
+      },
+      "validated": true,
+      "status": "measured",
+      "canonical": {
+        "smiles_a": "CCN(CC)CCOc1ccc(/C(=C(\\Cl)c2ccccc2)c2ccccc2)cc1",
+        "smiles_b": "CCN(CC)CCOc1ccc(/C(=C(/Cl)c2ccccc2)c2ccccc2)cc1",
+        "strings_differ": true,
+        "onehot_identical": true,
+        "max_abs_delta": 0.0
+      },
+      "order_fixed": {
+        "smiles_a": "CCN(CC)CCOc1ccc(/C(=C(/c2ccccc2)Cl)c2ccccc2)cc1",
+        "smiles_b": "CCN(CC)CCOc1ccc(/C(=C(\\c2ccccc2)Cl)c2ccccc2)cc1",
+        "strings_differ": true,
+        "onehot_identical": true,
+        "max_abs_delta": 0.0
+      }
+    }
+  ],
+  "chiral_controls": [
+    {
+      "pair": "omeprazole",
+      "kind": "chiral",
+      "why": "Single-enantiomer proton-pump inhibitor versus its antipode.",
+      "a": {
+        "CID": 9568614,
+        "SMILES": "CC1=CN=C(C(=C1OC)C)C[S@](=O)C2=NC3=C(N2)C=C(C=C3)OC",
+        "ConnectivitySMILES": "CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC",
+        "InChIKey": "SUBDBMMJDZJVOS-DEOSSOPVSA-N",
+        "Title": "Esomeprazole",
+        "queried_as": "esomeprazole"
+      },
+      "b": {
+        "CID": 9579578,
+        "SMILES": "CC1=CN=C(C(=C1OC)C)C[S@@](=O)C2=NC3=C(N2)C=C(C=C3)OC",
+        "ConnectivitySMILES": "CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC",
+        "InChIKey": "SUBDBMMJDZJVOS-XMMPIXPASA-N",
+        "Title": "(r)-Omeprazole",
+        "queried_as": "(R)-omeprazole"
+      },
+      "bond_a": [],
+      "bond_b": [],
+      "atoms_a": 1,
+      "atoms_b": 1,
+      "checks": {
+        "same_constitution": true,
+        "stereo_differs": true,
+        "has_tetrahedral": true,
+        "no_double_bond_stereo": true
+      },
+      "validated": true,
+      "status": "measured",
+      "canonical": {
+        "smiles_a": "COc1ccc2nc([S@@](=O)Cc3ncc(C)c(OC)c3C)[nH]c2c1",
+        "smiles_b": "COc1ccc2nc([S@](=O)Cc3ncc(C)c(OC)c3C)[nH]c2c1",
+        "strings_differ": true,
+        "onehot_identical": false,
+        "max_abs_delta": 0.2681235671043396
+      },
+      "order_fixed": {
+        "smiles_a": "Cc1cnc(C[S@](=O)c2nc3c([nH]2)cc(OC)cc3)c(C)c1OC",
+        "smiles_b": "Cc1cnc(C[S@@](=O)c2nc3c([nH]2)cc(OC)cc3)c(C)c1OC",
+        "strings_differ": true,
+        "onehot_identical": false,
+        "max_abs_delta": 1.1426891088485718
+      }
+    },
+    {
+      "pair": "citalopram",
+      "kind": "chiral",
+      "why": "The S enantiomer is the marketed antidepressant.",
+      "a": {
+        "CID": 146570,
+        "SMILES": "CN(C)CCC[C@@]1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F",
+        "ConnectivitySMILES": "CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F",
+        "InChIKey": "WSEQXVZVJXJVFP-FQEVSTJZSA-N",
+        "Title": "Escitalopram",
+        "queried_as": "escitalopram"
+      },
+      "b": {
+        "CID": 6101829,
+        "SMILES": "CN(C)CCC[C@]1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F",
+        "ConnectivitySMILES": "CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F",
+        "InChIKey": "WSEQXVZVJXJVFP-HXUWFJFHSA-N",
+        "Title": "(-)-Citalopram",
+        "queried_as": "(R)-citalopram"
+      },
+      "bond_a": [],
+      "bond_b": [],
+      "atoms_a": 1,
+      "atoms_b": 1,
+      "checks": {
+        "same_constitution": true,
+        "stereo_differs": true,
+        "has_tetrahedral": true,
+        "no_double_bond_stereo": true
+      },
+      "validated": true,
+      "status": "measured",
+      "canonical": {
+        "smiles_a": "CN(C)CCC[C@@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+        "smiles_b": "CN(C)CCC[C@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
+        "strings_differ": true,
+        "onehot_identical": false,
+        "max_abs_delta": 0.3246382474899292
+      },
+      "order_fixed": {
+        "smiles_a": "CN(C)CCC[C@]1(c2ccc(F)cc2)c2c(cc(C#N)cc2)CO1",
+        "smiles_b": "CN(C)CCC[C@@]1(c2ccc(F)cc2)c2c(cc(C#N)cc2)CO1",
+        "strings_differ": true,
+        "onehot_identical": false,
+        "max_abs_delta": 0.4120824337005615
+      }
+    },
+    {
+      "pair": "naproxen",
+      "kind": "chiral",
+      "why": "The S enantiomer is the marketed anti-inflammatory; the R form is hepatotoxic.",
+      "a": {
+        "CID": 156391,
+        "SMILES": "C[C@@H](C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O",
+        "ConnectivitySMILES": "CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O",
+        "InChIKey": "CMWTZPSULFXXJA-VIFPVBQESA-N",
+        "Title": "Naproxen",
+        "queried_as": "naproxen"
+      },
+      "b": {
+        "CID": 169118,
+        "SMILES": "C[C@H](C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O",
+        "ConnectivitySMILES": "CC(C1=CC2=C(C=C1)C=C(C=C2)OC)C(=O)O",
+        "InChIKey": "CMWTZPSULFXXJA-SECBINFHSA-N",
+        "Title": "Naproxen, (-)-",
+        "queried_as": "(R)-naproxen"
+      },
+      "bond_a": [],
+      "bond_b": [],
+      "atoms_a": 1,
+      "atoms_b": 1,
+      "checks": {
+        "same_constitution": true,
+        "stereo_differs": true,
+        "has_tetrahedral": true,
+        "no_double_bond_stereo": true
+      },
+      "validated": true,
+      "status": "measured",
+      "canonical": {
+        "smiles_a": "COc1ccc2cc([C@H](C)C(=O)O)ccc2c1",
+        "smiles_b": "COc1ccc2cc([C@@H](C)C(=O)O)ccc2c1",
+        "strings_differ": true,
+        "onehot_identical": false,
+        "max_abs_delta": 0.2545991539955139
+      },
+      "order_fixed": {
+        "smiles_a": "C[C@@H](c1cc2c(cc1)cc(OC)cc2)C(=O)O",
+        "smiles_b": "C[C@H](c1cc2c(cc1)cc(OC)cc2)C(=O)O",
+        "strings_differ": true,
+        "onehot_identical": false,
+        "max_abs_delta": 0.4795946776866913
+      }
+    },
+    {
+      "pair": "ofloxacin",
+      "kind": "chiral",
+      "why": "Levofloxacin is the active S enantiomer of the ofloxacin racemate.",
+      "a": {
+        "CID": 149096,
+        "SMILES": "C[C@H]1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+        "ConnectivitySMILES": "CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+        "InChIKey": "GSDSWSVVBLHKDQ-JTQLQIEISA-N",
+        "Title": "Levofloxacin",
+        "queried_as": "levofloxacin"
+      },
+      "b": {
+        "CID": 452723,
+        "SMILES": "C[C@@H]1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+        "ConnectivitySMILES": "CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+        "InChIKey": "GSDSWSVVBLHKDQ-SNVBAGLBSA-N",
+        "Title": "Ofloxacin, D-",
+        "queried_as": "(R)-ofloxacin"
+      },
+      "bond_a": [],
+      "bond_b": [],
+      "atoms_a": 1,
+      "atoms_b": 1,
+      "checks": {
+        "same_constitution": true,
+        "stereo_differs": true,
+        "has_tetrahedral": true,
+        "no_double_bond_stereo": true
+      },
+      "validated": true,
+      "status": "measured",
+      "canonical": {
+        "smiles_a": "C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+        "smiles_b": "C[C@@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+        "strings_differ": true,
+        "onehot_identical": false,
+        "max_abs_delta": 0.8251950144767761
+      },
+      "order_fixed": {
+        "smiles_a": "C[C@H]1COc2c3n1cc(C(=O)O)c(=O)c3cc(F)c2N1CCN(C)CC1",
+        "smiles_b": "C[C@@H]1COc2c3n1cc(C(=O)O)c(=O)c3cc(F)c2N1CCN(C)CC1",
+        "strings_differ": true,
+        "onehot_identical": false,
+        "max_abs_delta": 0.5146855115890503
+      }
+    }
+  ]
+}

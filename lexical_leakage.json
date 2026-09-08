@@ -1,0 +1,17 @@
+{
+ "n": 4000,
+ "canonical": {
+  "direction_only_string_diff": 3993,
+  "identical_activations": 3993,
+  "frac_identical": 0.99825,
+  "max_abs_delta": 0.7836654186248779,
+  "mean_abs_delta": 0.000834291335195303
+ },
+ "order_fixed": {
+  "direction_only_string_diff": 4000,
+  "identical_activations": 4000,
+  "frac_identical": 1.0,
+  "max_abs_delta": 0.0,
+  "mean_abs_delta": 0.0
+ }
+}

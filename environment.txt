@@ -1,0 +1,11 @@
+# Exact environment used to produce all numbers in the manuscript and SI.
+# Python 3.12.2 (Windows 11, CUDA 12.6, NVIDIA RTX 4070 Ti SUPER).
+# fcd 1.2.2 needs the shim `np.row_stack = np.vstack` under NumPy 2 (scripts apply it).
+python==3.12.2
+rdkit==2026.03.3
+torch==2.6.0+cu126
+fcd==1.2.2
+numpy==2.5.1
+selfies==2.1.1
+matplotlib==3.10.1
+scipy==1.17.1

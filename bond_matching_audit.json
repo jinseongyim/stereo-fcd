@@ -1,0 +1,15 @@
+{
+ "n_eligible": 380,
+ "n_canonical_key_change_under_inversion": 0,
+ "old": {
+  "bonds": 285,
+  "as_is": 282,
+  "inverted": 6
+ },
+ "corrected": {
+  "bonds": 292,
+  "as_is": 289,
+  "inverted": 3,
+  "complementary": true
+ }
+}

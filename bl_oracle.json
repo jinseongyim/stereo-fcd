@@ -1,0 +1,7 @@
+{
+ "n_conn_correct": 1395,
+ "baseline_exact": 1027,
+ "oracle_fill_only": 1159,
+ "oracle_clear_and_fill": 1216,
+ "capped": 57
+}

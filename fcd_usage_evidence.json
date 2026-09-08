@@ -1,0 +1,68 @@
+{
+  "accessed": "2026-09-02",
+  "papers": [
+    {
+      "label": "FCD (Preuer et al. 2018)",
+      "title": "Fr\u00e9chet ChemNet Distance: A Metric for Generative Models for Molecules in Drug Discovery",
+      "year": 2018,
+      "venue": "Journal of Chemical Information and Modeling",
+      "citations": 352,
+      "doi": "10.1021/acs.jcim.8b00234",
+      "openalex": "https://openalex.org/W2887447356"
+    },
+    {
+      "label": "GuacaMol (Brown et al. 2019)",
+      "title": "GuacaMol: Benchmarking Models for de Novo Molecular Design",
+      "year": 2019,
+      "venue": "Journal of Chemical Information and Modeling",
+      "citations": 830,
+      "doi": "10.1021/acs.jcim.8b00839",
+      "openalex": "https://openalex.org/W2900694120"
+    },
+    {
+      "label": "MOSES (Polykovskiy et al. 2020)",
+      "title": "Molecular Sets (MOSES): A Benchmarking Platform for Molecular Generation Models",
+      "year": 2020,
+      "venue": "Frontiers in Pharmacology",
+      "citations": 85,
+      "doi": "10.3389/fphar.2020.565644",
+      "openalex": "https://openalex.org/W2903425689"
+    },
+    {
+      "label": "MolT5 (Edwards et al. 2022)",
+      "title": "Translation between Molecules and Natural Language",
+      "year": 2022,
+      "venue": null,
+      "citations": 133,
+      "doi": "10.18653/v1/2022.emnlp-main.26",
+      "openalex": "https://openalex.org/W4385572894"
+    },
+    {
+      "label": "BioT5 (Pei et al. 2023)",
+      "title": "BioT5: Enriching Cross-modal Integration in Biology with Chemical Knowledge and Natural Language Associations",
+      "year": 2023,
+      "venue": null,
+      "citations": 46,
+      "doi": "10.18653/v1/2023.emnlp-main.70",
+      "openalex": "https://openalex.org/W4389524207"
+    }
+  ],
+  "packages": [
+    {
+      "package": "fcd",
+      "version": "1.2.2",
+      "summary": "Fr\u00e9chet ChEMNet Distance",
+      "n_releases": 6,
+      "first_release": "1.0",
+      "stats_error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "package": "fcd-torch",
+      "version": "1.0.7",
+      "summary": "Fr\u00e9chet ChemNet Distance on PyTorch",
+      "n_releases": 5,
+      "first_release": "1.0.3",
+      "stats_error": "HTTP Error 429: Too Many Requests"
+    }
+  ]
+}

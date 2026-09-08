@@ -1,0 +1,56 @@
+{
+ "total_gold_ez_bonds": 1785,
+ "n_ez_molecules": 712,
+ "end_to_end": {
+  "MolT5-base": {
+   "recall": 0.058823529411764705,
+   "coverage": 0.06050420168067227,
+   "precision": 0.9722222222222222,
+   "correct": 105,
+   "assigned": 108,
+   "N": 1785
+  },
+  "MolT5-large": {
+   "recall": 0.1619047619047619,
+   "coverage": 0.16358543417366947,
+   "precision": 0.9897260273972602,
+   "correct": 289,
+   "assigned": 292,
+   "N": 1785
+  },
+  "BioT5-base": {
+   "recall": 0.569187675070028,
+   "coverage": 0.5725490196078431,
+   "precision": 0.9941291585127201,
+   "correct": 1016,
+   "assigned": 1022,
+   "N": 1785
+  }
+ },
+ "common_support": {
+  "MolT5-large vs BioT5-base": {
+   "n_molecules": 322,
+   "N_bonds": 908,
+   "recall_MolT5-large": 0.2555066079295154,
+   "recall_BioT5-base": 0.9966960352422908,
+   "correct_MolT5-large": 232,
+   "correct_BioT5-base": 905
+  },
+  "MolT5-base vs BioT5-base": {
+   "n_molecules": 151,
+   "N_bonds": 480,
+   "recall_MolT5-base": 0.19375,
+   "recall_BioT5-base": 1.0,
+   "correct_MolT5-base": 93,
+   "correct_BioT5-base": 480
+  },
+  "MolT5-base vs MolT5-large": {
+   "n_molecules": 161,
+   "N_bonds": 516,
+   "recall_MolT5-base": 0.19767441860465115,
+   "recall_MolT5-large": 0.19186046511627908,
+   "correct_MolT5-base": 102,
+   "correct_MolT5-large": 99
+  }
+ }
+}
